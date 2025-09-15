@@ -13,10 +13,10 @@ export const Header = () => {
 
   return (
     // header
-    <div x-data="{ menuQuest: false }">
+    <div className='bg-white '>
       <div className="py-3">
         {/* navbar */}
-        <div className="max-w-6xl mx-auto p-6 flex items-center justify-between text-sm">
+        <div className="max-w-7xl mx-auto p-6 flex items-center justify-between text-sm">
           <div className="flex  items-center gap-8">
             <div>
               <img className="h-4" src={Logo} alt="Logo de Meta" />
@@ -31,9 +31,9 @@ export const Header = () => {
                 </div>
                 {/* dropdown */}
                 <div
-                  className="absolute left-0 top-full block w-screen bg-white border-t border-gray-300 
+                  className="absolute left-0 top-full w-screen bg-white border-t border-gray-300 
                   opacity-0 translate-y-5 pointer-events-none transition-all duration-300 ease-out 
-                  group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto"
+                  group-hover:opacity-100  group-hover:translate-y-0 group-hover:pointer-events-auto"
                 >
                   <div className="max-w-6xl mx-auto flex gap-16 text-lg py-16">
                     <div className="w-56">
@@ -80,8 +80,8 @@ export const Header = () => {
                   opacity-0 translate-y-5 pointer-events-none transition-all duration-300 ease-out 
                   group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto"
                 >
-                  <div className="max-w-7xl mx-auto text-lg py-16 ">
-                    <div className="w-56">
+                  <div className="max-w-6xl mx-auto text-lg py-16 ">
+                    <div className="">
                       <ul className="space-y-3">
                         <li className="hover:underline hover:underline-offset-4 hover:decoration-1">
                           Información General sobre Ray-Ban | Meta
