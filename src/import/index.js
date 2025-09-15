@@ -14,3 +14,5 @@ export * from '../Svgs/IconArrow';
 
 export * from '../components/Header/Header'
 export * from '../components/TopBar/TopBar'
+export * from '../components/Footer/Footer'
+export * from '../components/Footer/FooterList'
