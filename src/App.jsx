@@ -1,4 +1,4 @@
-import { TopBar, Header, Footer } from "./import/index"
+import { TopBar, Header, Featured, Footer } from "./import/index"
 
 
 export const App = () => {
@@ -6,6 +6,7 @@ export const App = () => {
     <div className="h-screen overflow-x-hidden">
       <TopBar />
       <Header />
+      <Featured />
       <div className="h-[900px]"></div>
       <Footer />
     </div>

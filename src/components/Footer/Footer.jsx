@@ -9,6 +9,7 @@ export const Footer = () => {
           {/* politicas */}
           <div className="grid grid-cols-5 gap-12 text-xs mb-20">
             <div>España (Español)</div>
+            <div className="space-y-6 col-start-3 col-end-6">
               <p className="uppercase">meta quest</p>
 
               <p>
